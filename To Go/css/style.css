@@ -1,0 +1,326 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+div p:first-of-type{
+    margin-bottom: 7%;
+    color: #848484;
+}
+.dropdown-menu,.dropdown-menu a{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+header{
+    background: url("img/sh.jpg") no-repeat fixed center center;
+    background-size: cover
+}
+header .header-holder{
+    padding: 2% 0 3%;
+    background-color: rgba(2,2,2,0.8);
+    color: #fff
+}
+header .header-holder .presentation .search-col{
+    padding: 8% 0;
+}
+header .header-holder .lang ul li:first-of-type{
+    float: left;
+    margin-right: 30px
+}
+header .header-holder .navbar{
+    background-color: rgba(141, 138, 138, 0.25);
+    margin-bottom: 5%;
+}
+header .header-holder .navbar a, header .header-holder .navbar-light .navbar-nav .active>.nav-link,
+header .header-holder .navbar-light .navbar-nav .nav-link
+{
+    color: #fff
+}
+header .header-holder .dropdown-menu a{
+    color: #000
+}
+header .header-holder .row .col:first-of-type form {
+    position: relative;
+}
+header .header-holder .row .col:first-of-type form input{
+    color: #fff;
+    width: 75%;
+    background-color: rgba(141, 138, 138, 0.25);
+    height: 46px;
+    border-radius: 5px;
+
+}
+header .header-holder .row .col:first-of-type form i{
+    position: absolute;
+    right: 28%;
+    bottom: 13px;
+}
+
+header .header-holder .row .col:nth-of-type(2) .program button{
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+header .header-holder .row .col:nth-of-type(2) .program button:focus-within{
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+
+header .header-holder .row .col:nth-of-type(2) .program .programButtons .not{
+    color: #fff;
+    background-color: rgba(141, 138, 138, 0.25);
+    border: none;
+    outline: none;
+}
+header .header-holder .row .col:nth-of-type(2) .program .programButtons .go{
+    background-color: #fff;
+    border: none;
+        outline: none;
+}
+
+header .header-holder .row .col:nth-of-type(2) .program .programInfo{
+    background-color: #fff;
+    padding: 6%;
+}
+header .header-holder .row .col:nth-of-type(2) .program .programInfo form input{
+    margin-bottom: 10px
+}
+header .header-holder .row .col:nth-of-type(2) .program .programInfo button{
+    margin: 10px 34%;
+    padding: 10px 18px;
+}
+/***************************************************************************************/
+.distination{
+    padding: 6% 0;
+}
+.distination .distination-holder .row .col {
+    position: relative;
+}
+.distination .distination-holder .row .col h6 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    color: #fff;
+    font-size: 30px;
+}
+.distination .distination-holder .row .col img{
+    width: 100%;
+    height: 100%;
+}
+.distination .distination-holder .hotels {
+    padding-top: 20% ;
+}
+/***************************************************************************************/
+.price {
+    background: url("img/w.jpg") no-repeat fixed center center;
+    padding: 7% 0;
+    background-size: cover;
+}
+.price .price-holder .price-details{
+    background-color: #fff;
+    padding: 2% 0;
+}
+
+.price .price-holder .price-details hr{
+    width: 93%;
+    background-color: rebeccapurple;
+}
+.price .price-holder .price-tables .price-details .details{
+    padding: 0 20px;
+}
+.price .price-holder .price-tables .price-details .details .newYourk p{
+    float: left;
+
+}
+.price .price-holder .price-tables .price-details .details .newYourk button{
+    float: right;
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-radius: 0;
+}
+/***************************************************************************************/
+.help{
+    padding: 11% 0 6%;
+}
+.help .help-holder h5,.help .help-holder p{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.help .help-holder .container p:first-of-type{
+    margin-bottom: 7%;
+}
+.help .help-holder .container img{
+    width: 100%;
+    height: 166px;
+}
+
+/***************************************************************************************/
+.test{
+    background-color: #eee;
+    padding: 7% 0 5%;
+}
+.test .test-holder img{
+    width:65px;
+    height: 100%;
+}
+.test .test-holder .myMedia{
+    background-color: #fff;
+    padding: 4%;
+}
+.test .test-holder .myMedia ul li {
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.test .test-holder .myMedia .rated{
+    color: coral;
+    cursor: pointer;
+}
+.test .test-holder .clients .myCarousel,.blog .blog-holder .myCarousel {
+    position: relative;
+    padding: 7% 0 0 ;
+}
+
+.test .test-holder .clients .myCarousel ul,.blog .blog-holder .myCarousel ul{
+    position: relative;
+    margin-left: 46%;
+}
+.test .test-holder .clients .myCarousel ul li,.blog .blog-holder .myCarousel ul li{
+    position: absolute;
+    float: left;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    background-color:#5252ff;
+    opacity: .3;
+    cursor: pointer;
+}
+.test .test-holder .clients .myCarousel ul li.active,.blog .blog-holder .myCarousel ul li.active{
+    opacity: 1;
+}
+.test .test-holder .clients .myCarousel ul li:nth-of-type(2),.blog .blog-holder .myCarousel ul li:nth-of-type(2){
+    left: 20px;
+}
+.test .test-holder .clients .myCarousel ul li:nth-of-type(3),.blog .blog-holder .myCarousel ul li:nth-of-type(3){
+    left: 40px;
+}
+.test .test-holder .clients .myCarousel ul li:nth-of-type(4){
+    left: 60px;
+}
+.test .test-holder .clients .myCarousel ul li:last-of-type{
+    left: 80px;
+}
+/***************************************************************************************/
+.package .package-holder .packages{
+    float: left;
+    padding: 4% 0 3% 12%;
+    width: 50%;
+}
+.package .package-holder .packages button{
+    text-transform: uppercase;
+    margin-top: 40px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.package .package-holder .package-img{
+    float: right;
+}
+.package .package-holder .package-img img{
+    width: 670px;
+    height: 415px;
+}
+/***************************************************************************************/
+.places{
+    background-color: #eee;
+    padding:6% 0;
+}
+.places .places-holder p:first-of-type{
+    margin-bottom: 7%;
+}
+/***************************************************************************************/
+.blog {
+    padding: 7% 0;
+}
+.blog .blo-holder p:first-of-type{
+    margin-bottom: 7%;
+}
+.blog .blog-holder .row .col img{
+    width: 100%;
+    margin-bottom: 18%;
+}
+.blog .blog-holder .row .col button{
+    margin:0 0 5% 0;
+    border: 1px solid #333;
+    border-radius: 0;
+    background-color: #fff;
+}
+.blog .blog-holder .row .col p{
+    color:#848484
+}
+/***************************************************************************************/
+.last{
+    padding: 4% 0;
+    background-color: #040419;
+    color: #646464;
+}
+.last .last-holder h3{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.last .last-holder form{
+    position: relative;
+}
+.last .last-holder form input{
+    position: relative;
+    width: 90%;
+    display: inline;
+    border-radius: 0;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.last .last-holder form button{
+    position: absolute;
+    color: #fff;
+    border-radius: 0;
+}
+.last .last-holder .row .col img{
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 17px;
+}
+.last .last-holder .row .col ul li{
+    margin-bottom: 10px;
+}
+.last hr{
+    background-color: #eee;
+    margin: 5% 0 0;
+
+}
+/***************************************************************************************/
+footer{
+    padding: 0% 0 4%;
+    background-color: #040419;
+    color: #646464;
+}
+
+footer .footer-holder .left{
+    float: left;
+}
+footer .footer-holder .left span{
+    color: #fff;
+}
+footer .footer-holder .right{
+    float: right;
+}
+footer .footer-holder .right ul li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+footer .footer-holder .right ul li:hover{
+    transition: all .5s ease-in-out;
+    color: #fff;
+    transform: scale(3,3);
+}

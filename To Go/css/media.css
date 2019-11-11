@@ -1,0 +1,81 @@
+@media (max-width:767px){
+    header .header-holder .row,.distination .distination-holder .row,.price .price-holder .row,.help .help-holder .row,
+    .test .test-holder .row ,.package .package-holder .row,.places .places-holder .row{
+        display: inline;
+    }
+    header .header-holder .row .col:first-of-type form input{
+        width: 95%;
+    }
+    header .header-holder .row .col:first-of-type form i{
+        right: 10%;
+    }
+    .distination .distination-holder .row .col h6{
+        position: static;
+        color: #000;
+        font-size: 25px;
+        margin: 7px 0 35px;
+        font-family: monospace;
+    }
+    .distination .distination-holder .hotels{
+        padding-top: 12%;
+    }
+    .price{
+        padding: 10%  0;
+        
+    }
+    .price .price-holder .price-details{
+        margin-bottom: 20px;
+    }
+    .help .help-holder .container img:last-of-type{
+        margin-top: 20px;
+    }
+    .test{
+        padding: 7% 0;
+    }
+    .test .test-holder .clients .myCarousel ul{
+        margin-left: 38.5%;
+    }
+    .test .test-holder .myMedia{
+        margin-bottom: 20px;
+    }
+    .test .test-holder .clients .myCarousel{
+        padding: 1% 0 0;
+    }
+    .package .package-holder .packages{
+        padding:3% ;
+        width:100%
+    }
+    .package .package-holder .package-img{
+        float: none;
+    }
+    .package .package-holder .package-img img {
+        width: 439px;
+        height: 250px;
+    }
+    .places .places-holder .countries .row .col{
+        margin-bottom: 20px;
+    }
+    .places .places-holder .countries .row .col .row .col{
+        float: left;
+        width: 30%;
+    }
+    .places .places-holder .countries .row .col .card-body{
+        padding: 15px 15px 0;
+    }
+    .places .places-holder .countries .row .col .row .col:last-of-type{
+        width: 35%;
+        float: left;
+    }
+    footer{
+        position: relative;
+    }
+    footer p{
+        font-size: 14px;
+        padding: 0 0 6%;
+        padding-left: 7px;
+    }
+    footer .footer-holder .right{
+        position: absolute;
+        margin: 10% 0 0% 36%;
+    }
+}
